@@ -84,6 +84,7 @@ time, mark, audio, video {
     .main .one .main-logo h1 {
         font-size: 36px;
     }
+
 }
 
 /*main section one*/
@@ -128,7 +129,7 @@ time, mark, audio, video {
     padding-top: 35px;
 }
 
-@media (max-width: 740px) {
+@media (max-width: 768px) {
     .main .two .advantages .advantages-grid {
         grid-template-columns:repeat(2, 1fr);
     }
@@ -163,6 +164,7 @@ time, mark, audio, video {
     margin: 0 auto;
     max-height: 836px;
     max-width: 1160px;
+    margin-bottom: 98px;
 }
 
 .main .three .our_services .service-grid .service {
@@ -185,8 +187,10 @@ time, mark, audio, video {
     font-family: Montserrat;
 }
 
-.main .three .our_services .service-grid p {
+.main .three .our_services .service-grid .service-text-one {
     padding-top: 29px;
+    padding-left: 20px;
+    padding-right: 20px;
     font-weight: 500;
     font-size: 14px;
     font-family: Montserrat;
@@ -217,14 +221,39 @@ time, mark, audio, video {
     color: #FFFFFF;
 }
 
-@media (max-width: 640px) {
+.main .three .our_services h3 {
+    font-size: 32px;
+}
+
+@media (max-width: 768px) {
     .main .three .our_services .service-grid {
         grid-template-columns: repeat(2, 1fr);
-    }
-
-    .main .three .our_services h3 {
-        font-size: 32px;
+        gap: 20px;
+        max-width: 600px;
     }
 }
 
+@media (max-width: 500px) {
+    .main .three .our_services .service-grid {
+        grid-template-columns: 1fr;
+        max-width: 290px;
+    }
+}
 
+/*end main section thee*/
+/*start main section four*/
+.main .four .safeguards {
+    background-color: #E9EAE6;
+    min-height: 940px;
+}
+
+.main .four .safeguards h3 {
+    font-weight: 500;
+    font-size: 32px;
+    font-family: Montserrat;
+    padding-top: 100px;
+    padding-bottom: 60px;
+    text-align: center;
+    color: #000000;
+
+}
