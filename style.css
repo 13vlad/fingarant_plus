@@ -256,3 +256,104 @@ time, mark, audio, video {
     text-align: center;
     color: #000000;
 }
+.main .four .safeguards .safeguards-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 100px;
+    max-width:958px;
+    margin: 0 auto;
+    /*margin-left: 239px;*/
+    /*margin-right: 244px;*/
+}
+/*.main .safeguards .safeguards-grid .safeguards-law{*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*}*/
+.main .safeguards .safeguards-grid .safeguards-law p{
+    font-weight: 500;
+    font-size: 18px;
+    color: #000000;
+    font-family: Montserrat;
+}
+.main .safeguards .safeguards-grid .safeguards-law .radio-option input{
+    width: 36px;
+    height: 36px;
+    background-color: #FDFF8C;
+    border: 1px solid #000000;
+    margin-right: 10px;
+}
+.main .safeguards .safeguards-grid .safeguards-law .input-radio-one {
+    display: flex;
+    gap: 40px;
+}
+.main .safeguards .safeguards-grid .safeguards-law  .radio-option{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.main .safeguards .safeguards-grid .safeguards-law .radio-option label{
+    font-weight: 400;
+    font-size: 16px;
+    font-family: Montserrat;
+}
+.main .safeguards .safeguards-grid .safeguards-law .p{
+    margin-top: 40px;
+}
+.main .four .safeguards .safeguards-grid .safeguards-amount .input-text{
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    font-size: 18px;
+    color: #000000;
+    font-family: Montserrat;
+}
+.main .four .safeguards .safeguards-grid .safeguards-amount .input-text input{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 400;
+    height: 40px;
+    border: 1px solid #939393;
+    border-radius: 5px;
+}
+.main .four .safeguards .safeguards-grid .safeguards-amount  button{
+    width: 400;
+    height: 60px;
+    background-color: #000000;
+    border-radius: 7px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-family: Montserrat;
+}
+.main .four .safeguards .safeguards-grid .safeguards-amount .policy{
+    margin-top: 40px;
+
+}
+.main .four .safeguards .safeguards-grid .safeguards-amount .policy input{
+    width: 26px;
+    height: 26px;
+    background-color: #E9EAE6;
+    border-radius: 3px;
+    border: 1px solid #000000;
+    margin-right: 20px;
+}
+.main .four .safeguards .safeguards-grid .safeguards-amount .policy label{
+    font-weight: 400;
+    font-size: 12px;
+    font-family: Montserrat;
+}
+.main .four .safeguards .safeguards-grid .safeguards-amount .note{
+    margin-top: 23px;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: Montserrat;
+}
+@media (max-width: 768px){
+    .main .four .safeguards .safeguards-grid{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .main .four .safeguards{
+        min-height: 1640px;
+    }
+}
