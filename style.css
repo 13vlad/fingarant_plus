@@ -314,6 +314,10 @@ time, mark, audio, video {
     height: 40px;
     border: 1px solid #939393;
     border-radius: 5px;
+    color: #999999;
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 12px;
 }
 .main .four .safeguards .safeguards-grid .safeguards-amount  button{
     width: 400px;
@@ -357,5 +361,70 @@ time, mark, audio, video {
     }
     .main .four .safeguards .safeguards-grid .safeguards-amount .note{
         margin-bottom: 50px;
+    }
+}
+/*end main section four*/
+/*start main section five*/
+.five .free{
+    min-height: 605px;
+    height: auto;
+    background: linear-gradient(to right, #E9EAE6, #FCFE92);
+}
+.five .free h3{
+    font-weight: 500;
+    font-size: 32px;
+    font-family: Montserrat;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    color: #000000;
+    text-align: center;
+}
+.five .free p{
+    font-weight: 400;
+    font-size: 18px;
+    font-family: Montserrat;
+    color: #000000;
+    text-align: center;
+}
+.five .free .free_input{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 40px;
+    margin-top: 41px;
+}
+.five .free .free_input input{
+    border: 1px solid #939393;
+    width: 300px;
+    height: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: Montserrat;
+    color: #999999;
+    border-radius: 5px;
+}
+.five .free .free-button button{
+    width: 300px;
+    height: 60px;
+    border-radius: 7px;
+    background-color: #000000;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.five .free .free-button{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+@media (max-width: 768px) {
+    .five .free .free_input{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .five .free h3{
+        padding-top: 60px;
     }
 }
