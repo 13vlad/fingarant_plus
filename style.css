@@ -162,8 +162,9 @@ time, mark, audio, video {
     grid-template-columns: repeat(4, 1fr);
     gap: 20px 40px;
     margin: 0 auto;
-    max-height: 836px;
     max-width: 1160px;
+    height: 100%;
+    width: 100%;
     margin-bottom: 98px;
 }
 
@@ -260,15 +261,14 @@ time, mark, audio, video {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 100px;
-    max-width:958px;
+    max-width: 958px;
+    width: 100%;
     margin: 0 auto;
-    /*margin-left: 239px;*/
-    /*margin-right: 244px;*/
 }
-/*.main .safeguards .safeguards-grid .safeguards-law{*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*}*/
+.main .safeguards .safeguards-grid .safeguards-law{
+    display: flex;
+    flex-direction: column;
+}
 .main .safeguards .safeguards-grid .safeguards-law p{
     font-weight: 500;
     font-size: 18px;
@@ -310,13 +310,13 @@ time, mark, audio, video {
 .main .four .safeguards .safeguards-grid .safeguards-amount .input-text input{
     margin-top: 10px;
     margin-bottom: 20px;
-    width: 400;
+    width: 400px;
     height: 40px;
     border: 1px solid #939393;
     border-radius: 5px;
 }
 .main .four .safeguards .safeguards-grid .safeguards-amount  button{
-    width: 400;
+    width: 400px;
     height: 60px;
     background-color: #000000;
     border-radius: 7px;
@@ -327,7 +327,6 @@ time, mark, audio, video {
 }
 .main .four .safeguards .safeguards-grid .safeguards-amount .policy{
     margin-top: 40px;
-
 }
 .main .four .safeguards .safeguards-grid .safeguards-amount .policy input{
     width: 26px;
@@ -341,6 +340,7 @@ time, mark, audio, video {
     font-weight: 400;
     font-size: 12px;
     font-family: Montserrat;
+    display: flex;
 }
 .main .four .safeguards .safeguards-grid .safeguards-amount .note{
     margin-top: 23px;
@@ -348,12 +348,14 @@ time, mark, audio, video {
     font-size: 16px;
     font-family: Montserrat;
 }
-@media (max-width: 768px){
+@media (max-width: 1000px){
     .main .four .safeguards .safeguards-grid{
         display: grid;
         grid-template-columns: 1fr;
+        gap: 40px;
+        max-width: 400px;
     }
-    .main .four .safeguards{
-        min-height: 1640px;
+    .main .four .safeguards .safeguards-grid .safeguards-amount .note{
+        margin-bottom: 50px;
     }
 }
