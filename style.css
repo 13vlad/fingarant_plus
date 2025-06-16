@@ -133,6 +133,7 @@ time, mark, audio, video {
     .main .two .advantages .advantages-grid {
         grid-template-columns:repeat(2, 1fr);
     }
+
 }
 
 @media (max-width: 640px) {
@@ -427,6 +428,9 @@ time, mark, audio, video {
     .five .free h3{
         padding-top: 60px;
     }
+    .five .free{
+        min-height: 700px;
+    }
 }
 /*end main section five*/
 /*start section six*/
@@ -450,6 +454,7 @@ time, mark, audio, video {
     grid-template-columns: repeat(3, 1fr);
     gap: 39px 56px;
     margin: 0 auto;
+    margin-bottom: 96px;
 }
 .main .six .design .design-grid .design-position{
     display: flex;
@@ -480,3 +485,32 @@ time, mark, audio, video {
     height: 160px;
     left: 20%;
 }
+@media (max-width: 800px){
+    .main .six .design .design-grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        max-width: 400px;
+        min-height: 1609px;
+    }
+    .main .six .design .design-grid .design-position{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+    }
+    .main .six .design h3{
+        padding-top: 60px;
+        font-size: 32px;
+    }
+    .main .six .design .design-grid .design-position .one{
+        left: 40%;
+    }
+    .main .six .design{
+        min-height: 1909px;
+    }
+    .main .six .design .design-grid .design-position p{
+        padding-top: 40px;
+    }
+}
+/*end main section six*/
+/*start main section seven*/
