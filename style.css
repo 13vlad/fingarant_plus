@@ -428,3 +428,55 @@ time, mark, audio, video {
         padding-top: 60px;
     }
 }
+/*end main section five*/
+/*start section six*/
+.main .six .design{
+    min-height: 764px;
+    height: auto;
+    background: linear-gradient(to bottom, #000000, #242424)
+}
+.main .six .design h3{
+    font-weight: 500;
+    font-size: 42px;
+    font-family: Montserrat;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 53px;
+}
+.main .six .design .design-grid{
+    max-width: 1134px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 39px 56px;
+    margin: 0 auto;
+}
+.main .six .design .design-grid .design-position{
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    align-items: center;
+    position: relative;
+    height: auto;
+    min-height: 160px;
+}
+.main .six .design .design-grid .design-position p{
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 16px;
+    position: relative;
+    z-index: 1;
+}
+.main .six .design .design-grid .design-position .two{
+    width: 58px;
+    height: 33px;
+    position: relative;
+    z-index: 1;
+}
+.main .six .design .design-grid .design-position .one{
+    position: absolute;
+    z-index: 0;
+    height: 160px;
+    left: 20%;
+}
