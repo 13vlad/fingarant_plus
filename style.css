@@ -18,17 +18,14 @@ time, mark, audio, video {
     color: inherit;
     vertical-align: baseline;
 }
-
 .container {
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
 }
-
 /*star header*/
 
 /*end header*/
-
 /*start main section one*/
 .main .one .main-logo {
     background-image: url("images/bg_1 1.png");
@@ -36,7 +33,6 @@ time, mark, audio, video {
     background-repeat: no-repeat;
     background-position: center;
 }
-
 .main .one .main-logo h1 {
     text-align: center;
     font-weight: 600;
@@ -45,11 +41,9 @@ time, mark, audio, video {
     padding-top: 102px;
     font-family: Montserrat;
 }
-
 .main .one .main-logo .yellow {
     color: #FDFF8C;
 }
-
 .main .one .main-logo .text {
     font-weight: 500;
     font-size: 18px;
@@ -58,7 +52,6 @@ time, mark, audio, video {
     text-align: center;
     font-family: Montserrat;
 }
-
 .main .one .main-logo button {
     width: 359px;
     height: 80px;
@@ -71,7 +64,6 @@ time, mark, audio, video {
     margin: 50px auto;
     font-family: Montserrat;
 }
-
 .main .one .main-logo .text_ {
     font-weight: 500;
     font-size: 16px;
@@ -79,22 +71,17 @@ time, mark, audio, video {
     text-align: center;
     font-family: Montserrat;
 }
-
 @media (max-width: 640px) {
     .main .one .main-logo h1 {
         font-size: 36px;
     }
-
 }
-
 /*main section one*/
 /*start main section two*/
 .main .two .advantages {
     background: linear-gradient(to right, #E9EAE6, #FCFE92);
     min-height: 908px;
-
 }
-
 .main .two .advantages h2 {
     padding-top: 100px;
     padding-bottom: 41px;
@@ -105,7 +92,6 @@ time, mark, audio, video {
     line-height: 100%;
     text-align: center;
 }
-
 .main .two .advantages .advantages-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -113,14 +99,12 @@ time, mark, audio, video {
     max-width: 1160px;
     margin: 0 auto;
 }
-
 .main .two .advantages .advantages-grid .advantage {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
 }
-
 .main .two .advantages .advantages-grid .advantage p {
     font-weight: 500;
     font-size: 16px;
@@ -128,24 +112,19 @@ time, mark, audio, video {
     font-family: Montserrat;
     padding-top: 35px;
 }
-
 @media (max-width: 768px) {
     .main .two .advantages .advantages-grid {
         grid-template-columns:repeat(2, 1fr);
     }
-
 }
-
 @media (max-width: 640px) {
     .main .two .advantages .advantages-grid {
         grid-template-columns: 1fr;
     }
-
     .main .two .advantages h2 {
         font-size: 32px;
     }
 }
-
 /*end main section two*/
 /*star main section thee*/
 .main .three .our_services h3 {
@@ -157,7 +136,6 @@ time, mark, audio, video {
     padding-top: 100px;
     padding-bottom: 60px;
 }
-
 .main .three .our_services .service-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -168,7 +146,6 @@ time, mark, audio, video {
     width: 100%;
     margin-bottom: 98px;
 }
-
 .main .three .our_services .service-grid .service {
     display: flex;
     flex-direction: column;
@@ -177,18 +154,15 @@ time, mark, audio, video {
     border: 1px solid #DDDDDD;
     border-radius: 7px;
 }
-
 .main .three .our_services .service-grid .service-text {
     background: linear-gradient(to right, #E9EAE6, #FCFE92);
 }
-
 .main .three .our_services .service-grid .service-text p {
     padding-top: 28px;
     font-weight: 600;
     font-size: 14px;
     font-family: Montserrat;
 }
-
 .main .three .our_services .service-grid .service-text-one {
     padding-top: 29px;
     padding-left: 20px;
@@ -197,7 +171,6 @@ time, mark, audio, video {
     font-size: 14px;
     font-family: Montserrat;
 }
-
 .main .three .our_services .service-grid .recognize {
     width: 235px;
     height: 40px;
@@ -210,7 +183,6 @@ time, mark, audio, video {
     margin-top: 24px;
     background-color: #FFFFFF;
 }
-
 .main .three .our_services .service-grid .get {
     margin-bottom: 25px;
     width: 235px;
@@ -222,11 +194,9 @@ time, mark, audio, video {
     background-color: #000000;
     color: #FFFFFF;
 }
-
 .main .three .our_services h3 {
     font-size: 32px;
 }
-
 @media (max-width: 768px) {
     .main .three .our_services .service-grid {
         grid-template-columns: repeat(2, 1fr);
@@ -234,21 +204,18 @@ time, mark, audio, video {
         max-width: 600px;
     }
 }
-
 @media (max-width: 500px) {
     .main .three .our_services .service-grid {
         grid-template-columns: 1fr;
         max-width: 290px;
     }
 }
-
 /*end main section thee*/
 /*start main section four*/
 .main .four .safeguards {
     background-color: #E9EAE6;
     min-height: 940px;
 }
-
 .main .four .safeguards h3 {
     font-weight: 500;
     font-size: 32px;
@@ -511,6 +478,255 @@ time, mark, audio, video {
     .main .six .design .design-grid .design-position p{
         padding-top: 40px;
     }
+    .main .six .design .design-grid .design-position .two{
+        display: block;
+        transform: rotate(90deg);
+    }
 }
 /*end main section six*/
 /*start main section seven*/
+.main .seven .partners {
+    margin: 100px auto;
+    min-height: 913px;
+    max-width: 1160px;
+}
+.main .seven .partners h3{
+    text-align: center;
+    font-weight: 500;
+    font-size: 42px;
+    font-family: Montserrat;
+    padding-bottom: 60px;
+}
+.main .seven .partners .partners-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px 40px;
+    max-width: 1160px;
+}
+.main .seven .partners .partners-grid .partner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #DDDDDD;
+    border-radius: 7px;
+    min-height: 331px;
+}
+.main .seven .partners .partners-grid .partner .partner-text{
+    border-bottom: 1px solid #DDDDDD;
+    width: 100%;
+}
+.main .seven .partners .partners-grid .partner .partner-text img{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.main .seven .partners .partners-grid .partner .partner-text p{
+    padding-bottom: 20px;
+    font-weight: 500;
+    font-size: 22px;
+    font-family: Montserrat;
+    color: #000000;
+}
+.main .seven .partners .partners-grid .partner .partner-text-one{
+    padding-top: 20px;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: Montserrat;
+    color: black;
+    min-height: 85px;
+}
+.main .seven .partners .partners-grid .partner .application{
+    min-width: 235px;
+    height: 40px;
+    background-color: #EF3C3C;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 12px;
+    font-family: Montserrat;
+    color: #FFFFFF;
+    border: none;
+}
+.main .seven .partners .arrow{
+    padding-top: 40px;
+    display: block;
+    margin: 0 auto;
+}
+@media (max-width: 800px) {
+    .main .seven .partners{
+        margin: 60px auto;
+    }
+    .main .seven .partners h3{
+        font-size: 32px;
+        padding-bottom: 35px;
+    }
+    .main .seven .partners .partners-grid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 601px;
+        margin: 0 auto;
+    }
+    .main .seven .partners .partners-grid .partner:nth-child(n+5){
+        display: none;
+    }
+}
+/*end main section seven*/
+/*start main section eight*/
+.main .eight .online{
+    max-width: 1160px;
+    min-height: 1012px;
+    margin: 0 auto;
+}
+.main .eight .online h3{
+    font-weight: 500;
+    font-size: 32px;
+    font-family: Montserrat;
+    color: black;
+    padding-bottom: 40px;
+    display: block;
+    max-width: 790px;
+    margin: 0 auto;
+    text-align: center;
+}
+.main .eight .online p{
+    display: block;
+    max-width: 890px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 18px;
+    color: black;
+}
+.main .eight .online .online_step{
+    max-width: 1160px;
+    background-color: #E9EAE6;
+    min-height: 713px;
+    margin-top: 40px;
+    border-radius: 11px;
+}
+.main .eight .online .online_step .step{
+    display: flex;
+    justify-content: space-between;
+    gap: 0;
+}
+.main .eight .online .online_step .step a{
+    text-decoration: none;
+}
+.main .eight .online .online_step .step .step-one{
+    width: 580px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 32px;
+    font-family: Montserrat;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #E9EAE6;
+    border-radius: 11px 0 0 0;
+}
+.main .eight .online .online_step .step .step-two{
+    width: 580px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 32px;
+    font-family: Montserrat;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: linear-gradient(to right, #FFFFFF, #F9F8F8);
+    border-radius: 0 11px 0 0;
+}
+.main .eight .online .online_step .online-contract{
+    max-width: 879px;
+    height: 513px;
+    background-color: #E9EAE6;
+    margin: 60px auto;
+}
+.main .eight .online .online_step .online-contract h3{
+    text-align: center;
+    font-weight: 500;
+    font-size: 22px;
+    font-family: Montserrat;
+    color: black;
+    padding-bottom: 40px;
+}
+.main .eight .online .online_step .online-contract .online-input{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+.main .eight .online .online_step .online-contract .online-input label{
+    font-weight: 500;
+    font-size: 18px;
+    font-family: Montserrat;
+    color: black;
+}
+.main .eight .online .online_step .online-contract .online-input .input input{
+    width: 400px;
+    min-height: 40px;
+    border-radius: 5px;
+    border: 1px solid #939393;
+    margin-left: 10px;
+    padding-left: 12px;
+}
+.main .eight .online .online_step .online-contract .online-input button{
+    width: 164px;
+    height: 60px;
+    background-color: black;
+    border-radius: 7px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: Montserrat;
+    align-items: center;
+    display: inline-flex;
+    gap: 20px;
+    padding-left: 20px;
+    float: right;
+    margin-left: 715px;
+}
+@media (max-width: 900px){
+    .main .eight .online .online_step .online-contract .online-input button{
+        margin: 0 auto;
+    }
+    .main .eight .online{
+        min-height: 1120px;
+    }
+    /*.main .eight .online .online_step .online-contract .online-input{*/
+    /*    min-height: 805px;*/
+    /*}*/
+    .main .eight .online .online_step .online-contract{
+        margin: 40px auto;
+    }
+    .main .eight .online .online_step{
+        min-height: 801px;
+    }
+}
+/*end main section eight*/
+/*start main section nine*/
+.main .nine .question{
+    min-height: 1360px;
+    background: linear-gradient(to bottom, #000000, #242424);
+    width: 100%;
+}
+.main .nine .question h3{
+    text-align: center;
+    font-weight: 500;
+    font-size: 42px;
+    font-family: Montserrat;
+    color: #FFFFFF;
+    padding-top: 140px;
+    padding-bottom: 56px;
+}
+.main .nine .question .question_{
+    display: flex;
+    justify-content: space-between;
+    gap: 496px;
+    margin-left: 139px;
+    margin-right: 141px;
+}
+.main .nine .question .question_ .question_text{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 22px;
+    font-family: Montserrat;
+}
