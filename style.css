@@ -18,21 +18,32 @@ time, mark, audio, video {
     color: inherit;
     vertical-align: baseline;
 }
+
 .container {
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
+    padding: 0 24px;
 }
+
+/*@media (max-width: 768px) {*/
+/*    .container {*/
+/*        padding: 0 12px;*/
+/*    }*/
+/*}*/
+
 /*star header*/
 
 /*end header*/
 /*start main section one*/
-.main .one .main-logo {
+.main .one {
     background-image: url("images/bg_1 1.png");
     min-height: 740px;
     background-repeat: no-repeat;
     background-position: center;
+    width: 100%;
 }
+
 .main .one .main-logo h1 {
     text-align: center;
     font-weight: 600;
@@ -41,9 +52,11 @@ time, mark, audio, video {
     padding-top: 102px;
     font-family: Montserrat;
 }
+
 .main .one .main-logo .yellow {
     color: #FDFF8C;
 }
+
 .main .one .main-logo .text {
     font-weight: 500;
     font-size: 18px;
@@ -52,6 +65,7 @@ time, mark, audio, video {
     text-align: center;
     font-family: Montserrat;
 }
+
 .main .one .main-logo button {
     width: 359px;
     height: 80px;
@@ -64,6 +78,7 @@ time, mark, audio, video {
     margin: 50px auto;
     font-family: Montserrat;
 }
+
 .main .one .main-logo .text_ {
     font-weight: 500;
     font-size: 16px;
@@ -71,17 +86,24 @@ time, mark, audio, video {
     text-align: center;
     font-family: Montserrat;
 }
+
 @media (max-width: 640px) {
     .main .one .main-logo h1 {
         font-size: 36px;
     }
+
+    .main .one {
+        padding: 0 24px;
+    }
 }
+
 /*main section one*/
 /*start main section two*/
 .main .two .advantages {
     background: linear-gradient(to right, #E9EAE6, #FCFE92);
     min-height: 908px;
 }
+
 .main .two .advantages h2 {
     padding-top: 100px;
     padding-bottom: 41px;
@@ -92,6 +114,7 @@ time, mark, audio, video {
     line-height: 100%;
     text-align: center;
 }
+
 .main .two .advantages .advantages-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -99,12 +122,14 @@ time, mark, audio, video {
     max-width: 1160px;
     margin: 0 auto;
 }
+
 .main .two .advantages .advantages-grid .advantage {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
 }
+
 .main .two .advantages .advantages-grid .advantage p {
     font-weight: 500;
     font-size: 16px;
@@ -112,19 +137,23 @@ time, mark, audio, video {
     font-family: Montserrat;
     padding-top: 35px;
 }
+
 @media (max-width: 768px) {
     .main .two .advantages .advantages-grid {
         grid-template-columns:repeat(2, 1fr);
     }
 }
+
 @media (max-width: 640px) {
     .main .two .advantages .advantages-grid {
         grid-template-columns: 1fr;
     }
+
     .main .two .advantages h2 {
         font-size: 32px;
     }
 }
+
 /*end main section two*/
 /*star main section thee*/
 .main .three .our_services h3 {
@@ -136,6 +165,7 @@ time, mark, audio, video {
     padding-top: 100px;
     padding-bottom: 60px;
 }
+
 .main .three .our_services .service-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -146,6 +176,7 @@ time, mark, audio, video {
     width: 100%;
     margin-bottom: 98px;
 }
+
 .main .three .our_services .service-grid .service {
     display: flex;
     flex-direction: column;
@@ -154,15 +185,18 @@ time, mark, audio, video {
     border: 1px solid #DDDDDD;
     border-radius: 7px;
 }
+
 .main .three .our_services .service-grid .service-text {
     background: linear-gradient(to right, #E9EAE6, #FCFE92);
 }
+
 .main .three .our_services .service-grid .service-text p {
-    padding-top: 28px;
+    padding: 28px;
     font-weight: 600;
     font-size: 14px;
     font-family: Montserrat;
 }
+
 .main .three .our_services .service-grid .service-text-one {
     padding-top: 29px;
     padding-left: 20px;
@@ -171,6 +205,7 @@ time, mark, audio, video {
     font-size: 14px;
     font-family: Montserrat;
 }
+
 .main .three .our_services .service-grid .recognize {
     width: 235px;
     height: 40px;
@@ -183,6 +218,7 @@ time, mark, audio, video {
     margin-top: 24px;
     background-color: #FFFFFF;
 }
+
 .main .three .our_services .service-grid .get {
     margin-bottom: 25px;
     width: 235px;
@@ -194,9 +230,11 @@ time, mark, audio, video {
     background-color: #000000;
     color: #FFFFFF;
 }
+
 .main .three .our_services h3 {
     font-size: 32px;
 }
+
 @media (max-width: 768px) {
     .main .three .our_services .service-grid {
         grid-template-columns: repeat(2, 1fr);
@@ -204,18 +242,21 @@ time, mark, audio, video {
         max-width: 600px;
     }
 }
+
 @media (max-width: 500px) {
     .main .three .our_services .service-grid {
         grid-template-columns: 1fr;
         max-width: 290px;
     }
 }
+
 /*end main section thee*/
 /*start main section four*/
 .main .four .safeguards {
     background-color: #E9EAE6;
     min-height: 940px;
 }
+
 .main .four .safeguards h3 {
     font-weight: 500;
     font-size: 32px;
@@ -225,7 +266,8 @@ time, mark, audio, video {
     text-align: center;
     color: #000000;
 }
-.main .four .safeguards .safeguards-grid{
+
+.main .four .safeguards .safeguards-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 100px;
@@ -233,41 +275,50 @@ time, mark, audio, video {
     width: 100%;
     margin: 0 auto;
 }
-.main .safeguards .safeguards-grid .safeguards-law{
+
+.main .safeguards .safeguards-grid .safeguards-law {
     display: flex;
     flex-direction: column;
 }
-.main .safeguards .safeguards-grid .safeguards-law p{
+
+.main .safeguards .safeguards-grid .safeguards-law p {
     font-weight: 500;
     font-size: 18px;
     color: #000000;
     font-family: Montserrat;
 }
-.main .safeguards .safeguards-grid .safeguards-law .radio-option input{
+
+.main .safeguards .safeguards-grid .safeguards-law .radio-option input {
     width: 36px;
     height: 36px;
     background-color: #FDFF8C;
     border: 1px solid #000000;
     margin-right: 10px;
 }
+
 .main .safeguards .safeguards-grid .safeguards-law .input-radio-one {
     display: flex;
     gap: 40px;
 }
-.main .safeguards .safeguards-grid .safeguards-law  .radio-option{
+
+.main .safeguards .safeguards-grid .safeguards-law .radio-option {
     display: flex;
     align-items: center;
     margin-top: 20px;
 }
-.main .safeguards .safeguards-grid .safeguards-law .radio-option label{
+
+.main .safeguards .safeguards-grid .safeguards-law .radio-option label {
     font-weight: 400;
+    width: 100%;
     font-size: 16px;
     font-family: Montserrat;
 }
-.main .safeguards .safeguards-grid .safeguards-law .p{
+
+.main .safeguards .safeguards-grid .safeguards-law .p {
     margin-top: 40px;
 }
-.main .four .safeguards .safeguards-grid .safeguards-amount .input-text{
+
+.main .four .safeguards .safeguards-grid .safeguards-amount .input-text {
     display: flex;
     flex-direction: column;
     font-weight: 500;
@@ -275,7 +326,8 @@ time, mark, audio, video {
     color: #000000;
     font-family: Montserrat;
 }
-.main .four .safeguards .safeguards-grid .safeguards-amount .input-text input{
+
+.main .four .safeguards .safeguards-grid .safeguards-amount .input-text input {
     margin-top: 10px;
     margin-bottom: 20px;
     width: 400px;
@@ -287,7 +339,8 @@ time, mark, audio, video {
     font-size: 16px;
     padding-left: 12px;
 }
-.main .four .safeguards .safeguards-grid .safeguards-amount  button{
+
+.main .four .safeguards .safeguards-grid .safeguards-amount button {
     width: 400px;
     height: 60px;
     background-color: #000000;
@@ -297,10 +350,12 @@ time, mark, audio, video {
     color: #FFFFFF;
     font-family: Montserrat;
 }
-.main .four .safeguards .safeguards-grid .safeguards-amount .policy{
+
+.main .four .safeguards .safeguards-grid .safeguards-amount .policy {
     margin-top: 40px;
 }
-.main .four .safeguards .safeguards-grid .safeguards-amount .policy input{
+
+.main .four .safeguards .safeguards-grid .safeguards-amount .policy input {
     width: 26px;
     height: 26px;
     background-color: #E9EAE6;
@@ -308,37 +363,43 @@ time, mark, audio, video {
     border: 1px solid #000000;
     margin-right: 20px;
 }
-.main .four .safeguards .safeguards-grid .safeguards-amount .policy label{
+
+.main .four .safeguards .safeguards-grid .safeguards-amount .policy label {
     font-weight: 400;
     font-size: 12px;
     font-family: Montserrat;
     display: flex;
 }
-.main .four .safeguards .safeguards-grid .safeguards-amount .note{
+
+.main .four .safeguards .safeguards-grid .safeguards-amount .note {
     margin-top: 23px;
     font-weight: 400;
     font-size: 16px;
     font-family: Montserrat;
 }
-@media (max-width: 1000px){
-    .main .four .safeguards .safeguards-grid{
+
+@media (max-width: 1000px) {
+    .main .four .safeguards .safeguards-grid {
         display: grid;
         grid-template-columns: 1fr;
         gap: 40px;
         max-width: 400px;
     }
-    .main .four .safeguards .safeguards-grid .safeguards-amount .note{
+
+    .main .four .safeguards .safeguards-grid .safeguards-amount .note {
         margin-bottom: 50px;
     }
 }
+
 /*end main section four*/
 /*start main section five*/
-.five .free{
+.five .free {
     min-height: 605px;
     height: auto;
     background: linear-gradient(to right, #E9EAE6, #FCFE92);
 }
-.five .free h3{
+
+.five .free h3 {
     font-weight: 500;
     font-size: 32px;
     font-family: Montserrat;
@@ -347,32 +408,39 @@ time, mark, audio, video {
     color: #000000;
     text-align: center;
 }
-.five .free p{
+
+.five .free p {
     font-weight: 400;
     font-size: 18px;
     font-family: Montserrat;
     color: #000000;
     text-align: center;
 }
-.five .free .free_input{
+
+.five .free .free_input {
     display: flex;
     justify-content: center;
     gap: 40px;
     margin-bottom: 40px;
     margin-top: 41px;
 }
-.five .free .free_input input{
+
+.five .free .free_input input {
     border: 1px solid #939393;
-    width: 300px;
+    max-width: 300px;
+    width: 100%;
     height: 40px;
     font-weight: 400;
     font-size: 16px;
     font-family: Montserrat;
     color: #999999;
     border-radius: 5px;
+    padding-left: 10px;
 }
-.five .free .free-button button{
-    width: 300px;
+
+.five .free .free-button button {
+    max-width: 300px;
+    width: 100%;
     height: 60px;
     border-radius: 7px;
     background-color: #000000;
@@ -380,33 +448,39 @@ time, mark, audio, video {
     font-size: 16px;
     color: #FFFFFF;
 }
-.five .free .free-button{
+
+.five .free .free-button {
     display: flex;
     justify-content: center;
     margin-bottom: 40px;
 }
+
 @media (max-width: 768px) {
-    .five .free .free_input{
+    .five .free .free_input {
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 20px;
     }
-    .five .free h3{
+
+    .five .free h3 {
         padding-top: 60px;
     }
-    .five .free{
+
+    .five .free {
         min-height: 700px;
     }
 }
+
 /*end main section five*/
 /*start section six*/
-.main .six .design{
+.main .six .design {
     min-height: 764px;
     height: auto;
     background: linear-gradient(to bottom, #000000, #242424)
 }
-.main .six .design h3{
+
+.main .six .design h3 {
     font-weight: 500;
     font-size: 42px;
     font-family: Montserrat;
@@ -415,7 +489,8 @@ time, mark, audio, video {
     padding-top: 100px;
     padding-bottom: 53px;
 }
-.main .six .design .design-grid{
+
+.main .six .design .design-grid {
     max-width: 1134px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -423,7 +498,8 @@ time, mark, audio, video {
     margin: 0 auto;
     margin-bottom: 96px;
 }
-.main .six .design .design-grid .design-position{
+
+.main .six .design .design-grid .design-position {
     display: flex;
     flex-direction: row;
     gap: 18px;
@@ -432,7 +508,8 @@ time, mark, audio, video {
     height: auto;
     min-height: 160px;
 }
-.main .six .design .design-grid .design-position p{
+
+.main .six .design .design-grid .design-position p {
     color: #FFFFFF;
     font-family: Montserrat;
     font-weight: 500;
@@ -440,49 +517,59 @@ time, mark, audio, video {
     position: relative;
     z-index: 1;
 }
-.main .six .design .design-grid .design-position .two{
+
+.main .six .design .design-grid .design-position .two {
     width: 58px;
     height: 33px;
     position: relative;
     z-index: 1;
 }
-.main .six .design .design-grid .design-position .one{
+
+.main .six .design .design-grid .design-position .png {
     position: absolute;
     z-index: 0;
     height: 160px;
     left: 20%;
 }
-@media (max-width: 800px){
-    .main .six .design .design-grid{
+
+@media (max-width: 800px) {
+    .main .six .design .design-grid {
         display: grid;
         grid-template-columns: 1fr;
         max-width: 400px;
         min-height: 1609px;
     }
-    .main .six .design .design-grid .design-position{
+
+    .main .six .design .design-grid .design-position {
         display: flex;
         flex-direction: column;
         text-align: center;
         gap: 40px;
     }
-    .main .six .design h3{
+
+    .main .six .design h3 {
         padding-top: 60px;
         font-size: 32px;
     }
-    .main .six .design .design-grid .design-position .one{
+
+    .main .six .design .design-grid .design-position .one {
         left: 40%;
     }
-    .main .six .design{
+
+    .main .six .design {
         min-height: 1909px;
     }
-    .main .six .design .design-grid .design-position p{
+
+    .main .six .design .design-grid .design-position p {
         padding-top: 40px;
     }
-    .main .six .design .design-grid .design-position .two{
+
+    .main .six .design .design-grid .design-position .two {
         display: block;
         transform: rotate(90deg);
     }
 }
+
 /*end main section six*/
 /*start main section seven*/
 .main .seven .partners {
@@ -490,20 +577,23 @@ time, mark, audio, video {
     min-height: 913px;
     max-width: 1160px;
 }
-.main .seven .partners h3{
+
+.main .seven .partners h3 {
     text-align: center;
     font-weight: 500;
     font-size: 42px;
     font-family: Montserrat;
     padding-bottom: 60px;
 }
-.main .seven .partners .partners-grid{
+
+.main .seven .partners .partners-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px 40px;
     max-width: 1160px;
 }
-.main .seven .partners .partners-grid .partner{
+
+.main .seven .partners .partners-grid .partner {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -512,22 +602,26 @@ time, mark, audio, video {
     border-radius: 7px;
     min-height: 331px;
 }
-.main .seven .partners .partners-grid .partner .partner-text{
+
+.main .seven .partners .partners-grid .partner .partner-text {
     border-bottom: 1px solid #DDDDDD;
     width: 100%;
 }
-.main .seven .partners .partners-grid .partner .partner-text img{
+
+.main .seven .partners .partners-grid .partner .partner-text img {
     padding-top: 20px;
     padding-bottom: 20px;
 }
-.main .seven .partners .partners-grid .partner .partner-text p{
+
+.main .seven .partners .partners-grid .partner .partner-text p {
     padding-bottom: 20px;
     font-weight: 500;
     font-size: 22px;
     font-family: Montserrat;
     color: #000000;
 }
-.main .seven .partners .partners-grid .partner .partner-text-one{
+
+.main .seven .partners .partners-grid .partner .partner-text-one {
     padding-top: 20px;
     font-weight: 500;
     font-size: 14px;
@@ -535,7 +629,8 @@ time, mark, audio, video {
     color: black;
     min-height: 85px;
 }
-.main .seven .partners .partners-grid .partner .application{
+
+.main .seven .partners .partners-grid .partner .application {
     min-width: 235px;
     height: 40px;
     background-color: #EF3C3C;
@@ -546,37 +641,44 @@ time, mark, audio, video {
     color: #FFFFFF;
     border: none;
 }
-.main .seven .partners .arrow{
+
+.main .seven .partners .arrow {
     padding-top: 40px;
     display: block;
     margin: 0 auto;
 }
+
 @media (max-width: 800px) {
-    .main .seven .partners{
+    .main .seven .partners {
         margin: 60px auto;
     }
-    .main .seven .partners h3{
+
+    .main .seven .partners h3 {
         font-size: 32px;
         padding-bottom: 35px;
     }
-    .main .seven .partners .partners-grid{
+
+    .main .seven .partners .partners-grid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         max-width: 601px;
         margin: 0 auto;
     }
-    .main .seven .partners .partners-grid .partner:nth-child(n+5){
+
+    .main .seven .partners .partners-grid .partner:nth-child(n+5) {
         display: none;
     }
 }
+
 /*end main section seven*/
 /*start main section eight*/
-.main .eight .online{
+.main .eight .online {
     max-width: 1160px;
     min-height: 1012px;
     margin: 0 auto;
 }
-.main .eight .online h3{
+
+.main .eight .online h3 {
     font-weight: 500;
     font-size: 32px;
     font-family: Montserrat;
@@ -587,7 +689,8 @@ time, mark, audio, video {
     margin: 0 auto;
     text-align: center;
 }
-.main .eight .online p{
+
+.main .eight .online p {
     display: block;
     max-width: 890px;
     margin: 0 auto;
@@ -597,22 +700,26 @@ time, mark, audio, video {
     font-size: 18px;
     color: black;
 }
-.main .eight .online .online_step{
+
+.main .eight .online .online_step {
     max-width: 1160px;
     background-color: #E9EAE6;
     min-height: 713px;
     margin-top: 40px;
     border-radius: 11px;
 }
-.main .eight .online .online_step .step{
+
+.main .eight .online .online_step .step {
     display: flex;
     justify-content: space-between;
     gap: 0;
 }
-.main .eight .online .online_step .step a{
+
+.main .eight .online .online_step .step a {
     text-decoration: none;
 }
-.main .eight .online .online_step .step .step-one{
+
+.main .eight .online .online_step .step .step-one {
     width: 580px;
     text-align: center;
     font-weight: 500;
@@ -623,7 +730,8 @@ time, mark, audio, video {
     background-color: #E9EAE6;
     border-radius: 11px 0 0 0;
 }
-.main .eight .online .online_step .step .step-two{
+
+.main .eight .online .online_step .step .step-two {
     width: 580px;
     text-align: center;
     font-weight: 500;
@@ -634,13 +742,15 @@ time, mark, audio, video {
     background: linear-gradient(to right, #FFFFFF, #F9F8F8);
     border-radius: 0 11px 0 0;
 }
-.main .eight .online .online_step .online-contract{
+
+.main .eight .online .online_step .online-contract {
     max-width: 879px;
     height: 513px;
     background-color: #E9EAE6;
     margin: 60px auto;
 }
-.main .eight .online .online_step .online-contract h3{
+
+.main .eight .online .online_step .online-contract h3 {
     text-align: center;
     font-weight: 500;
     font-size: 22px;
@@ -648,27 +758,49 @@ time, mark, audio, video {
     color: black;
     padding-bottom: 40px;
 }
-.main .eight .online .online_step .online-contract .online-input{
+
+.main .eight .online .online_step .online-contract .online-input {
     display: flex;
     flex-direction: column;
     gap: 40px;
+}
+
+.main .eight .online .online_step .online-contract .online-input .input {
+    display: flex;
     align-items: center;
 }
-.main .eight .online .online_step .online-contract .online-input label{
+
+.main .eight .online .online_step .online-contract .online-input .input div {
+    width: 60%;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.main .eight .online .online_step .online-contract .online-input .input div label {
+    width: max-content;
+}
+
+.main .eight .online .online_step .online-contract .online-input label {
     font-weight: 500;
     font-size: 18px;
     font-family: Montserrat;
     color: black;
+    width: 40%;
+    text-align: right;
 }
-.main .eight .online .online_step .online-contract .online-input .input input{
-    width: 400px;
+
+.main .eight .online .online_step .online-contract .online-input .input input {
+    width: 100%;
+    max-width: 400px;
     min-height: 40px;
     border-radius: 5px;
     border: 1px solid #939393;
     margin-left: 10px;
     padding-left: 12px;
 }
-.main .eight .online .online_step .online-contract .online-input button{
+
+.main .eight .online .online_step .online-contract .online-input button {
     width: 164px;
     height: 60px;
     background-color: black;
@@ -684,31 +816,37 @@ time, mark, audio, video {
     float: right;
     margin-left: 715px;
 }
-@media (max-width: 900px){
-    .main .eight .online .online_step .online-contract .online-input button{
+
+@media (max-width: 900px) {
+    .main .eight .online .online_step .online-contract .online-input button {
         margin: 0 auto;
     }
-    .main .eight .online{
+
+    .main .eight .online {
         min-height: 1120px;
     }
+
     /*.main .eight .online .online_step .online-contract .online-input{*/
     /*    min-height: 805px;*/
     /*}*/
-    .main .eight .online .online_step .online-contract{
+    .main .eight .online .online_step .online-contract {
         margin: 40px auto;
     }
-    .main .eight .online .online_step{
+
+    .main .eight .online .online_step {
         min-height: 801px;
     }
 }
+
 /*end main section eight*/
 /*start main section nine*/
-.main .nine .question{
+.main .nine .question {
     min-height: 1360px;
     background: linear-gradient(to bottom, #000000, #242424);
     width: 100%;
 }
-.main .nine .question h3{
+
+.main .nine .question h3 {
     text-align: center;
     font-weight: 500;
     font-size: 42px;
@@ -717,16 +855,121 @@ time, mark, audio, video {
     padding-top: 140px;
     padding-bottom: 56px;
 }
-.main .nine .question .question_{
+
+.main .nine .question .question_ {
     display: flex;
     justify-content: space-between;
-    gap: 496px;
-    margin-left: 139px;
-    margin-right: 141px;
+    margin: 0 auto;
+    max-width: 1160px;
+    width: 100%;
 }
-.main .nine .question .question_ .question_text{
+
+.main .nine .question .question_text {
     color: #FFFFFF;
     font-weight: 500;
     font-size: 22px;
     font-family: Montserrat;
+}
+
+.nine .question .question_ul {
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 22px;
+    padding-bottom: 33px;
+    max-width: 1160px;
+    width: 100%;
+}
+
+.nine .question .question_ul ul {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: Montserrat;
+    list-style-type: none;
+}
+
+.nine .question .question_ul ul li {
+    margin-bottom: 10px;
+}
+
+.main .nine .question .question_two {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1160px;
+    width: 100%;
+
+    border-top: 1px solid #FFFFFF;
+    padding: 22px 0;
+}
+.main .nine .question .question_two:nth-child(12) {
+    border-bottom: 1px solid #FFFFFF;
+}
+
+@media (max-width: 768px) {
+    .main .nine .question h3 {
+        font-size: 32px;
+        padding-bottom: 40px;
+        padding-top: 60px;
+    }
+}
+/*end section nine*/
+/*start section ten*/
+.ten .issue{
+    min-height: 638px;
+    height: auto;
+    background: linear-gradient(to right, #E9EAE6, #FCFE92);
+}
+.ten .issue h3{
+    font-weight: 500;
+    font-size: 42px;
+    font-family: Montserrat;
+    color: black;
+    padding-top: 100px;
+    padding-bottom: 67px;
+    text-align: center;
+}
+.ten .issue p{
+    font-family: Montserrat;
+    color: black;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    padding-bottom: 18px;
+}
+.ten .issue .issue_input{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 40px;
+    margin-top: 41px;
+}
+
+.ten .issue .issue_input input {
+    border: 1px solid #939393;
+    max-width: 300px;
+    width: 100%;
+    height: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: Montserrat;
+    color: #999999;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.ten .issue  .issue-button{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.ten .issue  .issue-button button {
+    max-width: 300px;
+    width: 100%;
+    height: 60px;
+    border-radius: 7px;
+    background-color: #000000;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
 }
