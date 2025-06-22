@@ -33,10 +33,17 @@ time, mark, audio, video {
 /*}*/
 
 /*star header*/
-
+.header .header_header{
+    max-height: 150px;
+    height: 100%;
+    background: linear-gradient(to right, #E9EAE6, #FCFE92);;
+}
+.header .header_header .header_one{
+    border-bottom: 1px solid #A09E9E;
+}
 /*end header*/
 /*start main section one*/
-.main .one {
+.main .one .main-logo {
     background-image: url("images/bg_1 1.png");
     min-height: 740px;
     background-repeat: no-repeat;
@@ -77,6 +84,9 @@ time, mark, audio, video {
     display: block;
     margin: 50px auto;
     font-family: Montserrat;
+}
+.main .one .main-logo button:hover{
+    background-color: #F0F27F;
 }
 
 .main .one .main-logo .text_ {
@@ -188,6 +198,9 @@ time, mark, audio, video {
 
 .main .three .our_services .service-grid .service-text {
     background: linear-gradient(to right, #E9EAE6, #FCFE92);
+    height: 90px;
+    display: flex;
+    align-items: center;
 }
 
 .main .three .our_services .service-grid .service-text p {
@@ -197,16 +210,17 @@ time, mark, audio, video {
     font-family: Montserrat;
 }
 
-.main .three .our_services .service-grid .service-text-one {
+.main .three .our_services .service-grid .service .service-text-one {
     padding-top: 29px;
     padding-left: 20px;
     padding-right: 20px;
     font-weight: 500;
     font-size: 14px;
     font-family: Montserrat;
+    line-height: 1.5;
 }
 
-.main .three .our_services .service-grid .recognize {
+.main .three .our_services .service-grid .service .recognize {
     width: 235px;
     height: 40px;
     border-radius: 5px;
@@ -217,9 +231,10 @@ time, mark, audio, video {
     margin-bottom: 15px;
     margin-top: 24px;
     background-color: #FFFFFF;
+    text-transform: uppercase;
 }
 
-.main .three .our_services .service-grid .get {
+.main .three .our_services .service-grid .service .get {
     margin-bottom: 25px;
     width: 235px;
     height: 40px;
@@ -229,6 +244,10 @@ time, mark, audio, video {
     font-family: Montserrat;
     background-color: #000000;
     color: #FFFFFF;
+    text-transform: uppercase;
+}
+.main .three .our_services .service-grid .get:hover{
+    background-color: #535353;
 }
 
 .main .three .our_services h3 {
@@ -288,13 +307,6 @@ time, mark, audio, video {
     font-family: Montserrat;
 }
 
-.main .safeguards .safeguards-grid .safeguards-law .radio-option input {
-    width: 36px;
-    height: 36px;
-    background-color: #FDFF8C;
-    border: 1px solid #000000;
-    margin-right: 10px;
-}
 
 .main .safeguards .safeguards-grid .safeguards-law .input-radio-one {
     display: flex;
@@ -305,9 +317,20 @@ time, mark, audio, video {
     display: flex;
     align-items: center;
     margin-top: 20px;
+    column-gap: 10px;
+}
+.main .safeguards .safeguards-grid .safeguards-law .radio-option .radio-div{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: #FCFE92;
+    border: 1px solid #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.main .safeguards .safeguards-grid .safeguards-law .radio-option label {
+.main .safeguards .safeguards-grid .safeguards-law .radio-option span {
     font-weight: 400;
     width: 100%;
     font-size: 16px;
@@ -349,6 +372,9 @@ time, mark, audio, video {
     font-size: 16px;
     color: #FFFFFF;
     font-family: Montserrat;
+}
+.main .four .safeguards .safeguards-grid .safeguards-amount button:hover{
+    background-color: #535353;
 }
 
 .main .four .safeguards .safeguards-grid .safeguards-amount .policy {
@@ -447,6 +473,9 @@ time, mark, audio, video {
     font-weight: 600;
     font-size: 16px;
     color: #FFFFFF;
+}
+.five .free .free-button button:hover{
+    background-color: #535353;
 }
 
 .five .free .free-button {
@@ -623,11 +652,13 @@ time, mark, audio, video {
 
 .main .seven .partners .partners-grid .partner .partner-text-one {
     padding-top: 20px;
+    padding-bottom: 20px;
     font-weight: 500;
     font-size: 14px;
     font-family: Montserrat;
     color: black;
     min-height: 85px;
+    line-height: 2.0;
 }
 
 .main .seven .partners .partners-grid .partner .application {
@@ -640,6 +671,10 @@ time, mark, audio, video {
     font-family: Montserrat;
     color: #FFFFFF;
     border: none;
+    text-transform: uppercase;
+}
+.main .seven .partners .partners-grid .partner .application:hover{
+    background-color: #C13333;
 }
 
 .main .seven .partners .arrow {
@@ -816,6 +851,9 @@ time, mark, audio, video {
     float: right;
     margin-left: 715px;
 }
+.main .eight .online .online_step .online-contract .online-input button:hover{
+    background-color: #535353;
+}
 
 @media (max-width: 900px) {
     .main .eight .online .online_step .online-contract .online-input button {
@@ -972,4 +1010,30 @@ time, mark, audio, video {
     font-weight: 600;
     font-size: 16px;
     color: #FFFFFF;
+}
+.ten .issue  .issue-button button:hover{
+    background-color: #535353;
+}
+.ten .issue .issue_checkbox{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    justify-content: center;
+    margin-top: 51px;
+}
+.ten .issue .issue_checkbox .issue1{
+    width: 26px;
+    height: 26px;
+    border-radius: 3px;
+    border: 1px solid #000000;
+    background-color: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ten .issue .issue_checkbox .issue_span {
+    font-weight: 400;
+    font-size: 12px;
+    font-family: Montserrat;
+    color: #000000;
 }
