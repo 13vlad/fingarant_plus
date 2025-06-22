@@ -41,6 +41,22 @@ time, mark, audio, video {
 .header .header_header .header_one{
     border-bottom: 1px solid #A09E9E;
 }
+.header .header_header .header_two{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.header .header_header .header_two ul{
+    display: flex;
+    justify-content: center;
+    column-gap: 40px;
+    list-style-type: none;
+}
+.header .header_header .header_two a{
+    font-weight: 400;
+    font-size: 16px;
+    font-family: Montserrat;
+    text-decoration: none;
+}
 /*end header*/
 /*start main section one*/
 .main .one .main-logo {
