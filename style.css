@@ -37,16 +37,20 @@ time, mark, audio, video {
 }
 
 /*star header*/
+.header{
+    background: linear-gradient(to right, #E9EAE6, #FCFE92);
+}
 .header .header_header{
     /*min-height: 150px;*/
     height: 100%;
-    background: linear-gradient(to right, #E9EAE6, #FCFE92);;
+    /*background: linear-gradient(to right, #E9EAE6, #FCFE92);*/
 }
 .header .header_header .header_one{
     border-bottom: 1px solid #A09E9E;
     display: flex;
     align-items: center;
-    padding: 20px 140px;
+    justify-content: center;
+    padding: 20px;
 }
 .header .header_header .header_info{
     display: flex;
@@ -61,7 +65,7 @@ time, mark, audio, video {
 }
 .header .header_header .header_info .information span{
     font-weight: 400;
-    font-size: 12px;
+    font-size: 0.8vw;
     font-family: Montserrat;
     color: #000000;
 }
@@ -83,7 +87,7 @@ time, mark, audio, video {
 }
 
 .header .header_header .header_two{
-    padding: 20px 340px;
+    padding: 20px;
 }
 .header .header_header .header_two ul{
     display: flex;
@@ -94,15 +98,17 @@ time, mark, audio, video {
 }
 .header .header_header .header_two a{
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1.1vw;
     font-family: Montserrat;
     text-decoration: none;
 }
-@media (max-width: 1120px) {
+@media (max-width: 1024px) {
     .header .header_header .header_one{
-        padding-inline: 70px;
+        /*padding-inline: 100px;*/
         display: flex;
-        justify-content: space-between;
+        flex-direction: column;
+        row-gap: 15px;
+        align-items: flex-start;
     }
     .header .header_header .header_two{
         display: none;
@@ -117,11 +123,18 @@ time, mark, audio, video {
 }
 /*end header*/
 /*start main section one*/
-.main .one .main-logo {
+.main .one{
     background-image: url("images/bg_1 1.png");
-    /*min-height: 740px;*/
+    width: 100%;
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
+}
+.main .one .main-logo {
+    /*background-image: url("images/bg_1 1.png");*/
+    /*min-height: 740px;*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: center;*/
     /*width: 100%;*/
     padding: 100px 290px;
 }
@@ -183,14 +196,16 @@ time, mark, audio, video {
         padding: 40px 40px;
     }
 }
-}
 
 /*main section one*/
 /*start main section two*/
-.main .two .advantages {
+.main .two{
     background: linear-gradient(to right, #E9EAE6, #FCFE92);
+}
+.main .two .advantages {
     /*min-height: 908px;*/
     padding: 100px 140px;
+    /*background: linear-gradient(to right, #E9EAE6, #FCFE92);*/
 }
 
 .main .two .advantages h2 {
@@ -207,7 +222,7 @@ time, mark, audio, video {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 49px 130px;
-    max-width: 1160px;
+    /*max-width: 1160px;*/
     margin: 0 auto;
 }
 
@@ -244,13 +259,16 @@ time, mark, audio, video {
 
 /*end main section two*/
 /*star main section thee*/
+.main .three .our_services{
+    padding: 100px 140px;
+}
 .main .three .our_services h3 {
     font-weight: 500;
     font-size: 42px;
     color: #000000;
     font-family: Montserrat;
     text-align: center;
-    padding-top: 100px;
+    /*padding-top: 100px;*/
     padding-bottom: 60px;
 }
 
@@ -258,11 +276,11 @@ time, mark, audio, video {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px 40px;
-    margin: 0 auto;
-    max-width: 1160px;
-    height: 100%;
+    /*margin: 0 auto;*/
+    /*max-width: 1160px;*/
+    /*height: 100%;*/
     width: 100%;
-    margin-bottom: 98px;
+    /*margin-bottom: 98px;*/
 }
 
 .main .three .our_services .service-grid .service {
@@ -331,26 +349,35 @@ time, mark, audio, video {
 .main .three .our_services h3 {
     font-size: 32px;
 }
-
+@media (max-width: 1200px){
+    .main .three .our_services .service-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        /*max-width: 600px;*/
+    }
+}
 @media (max-width: 768px) {
     .main .three .our_services .service-grid {
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
-        max-width: 600px;
+        /*max-width: 600px;*/
     }
 }
 
 @media (max-width: 500px) {
     .main .three .our_services .service-grid {
         grid-template-columns: 1fr;
-        max-width: 290px;
+        /*max-width: 290px;*/
     }
 }
 
 /*end main section thee*/
 /*start main section four*/
-.main .four .safeguards {
+.main .four{
     background-color: #E9EAE6;
+}
+.main .four .safeguards {
+
     min-height: 940px;
 }
 
@@ -497,10 +524,12 @@ time, mark, audio, video {
 
 /*end main section four*/
 /*start main section five*/
+.main .five{
+    background: linear-gradient(to right, #E9EAE6, #FCFE92);
+}
 .five .free {
     min-height: 605px;
     height: auto;
-    background: linear-gradient(to right, #E9EAE6, #FCFE92);
 }
 
 .five .free h3 {
@@ -581,10 +610,13 @@ time, mark, audio, video {
 
 /*end main section five*/
 /*start section six*/
+.main .six{
+    background: linear-gradient(to bottom, #000000, #242424);
+}
 .main .six .design {
     min-height: 764px;
     height: auto;
-    background: linear-gradient(to bottom, #000000, #242424)
+
 }
 
 .main .six .design h3 {
@@ -625,7 +657,7 @@ time, mark, audio, video {
     z-index: 1;
 }
 
-.main .six .design .design-grid .design-position .two {
+.main .six .design .design-grid .design-position .two_ {
     width: 58px;
     height: 33px;
     position: relative;
@@ -760,7 +792,12 @@ time, mark, audio, video {
     display: block;
     margin: 0 auto;
 }
-
+@media (max-width: 1120px){
+    .main .seven .partners .partners-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
 @media (max-width: 800px) {
     .main .seven .partners {
         margin: 60px auto;
@@ -956,9 +993,11 @@ time, mark, audio, video {
 
 /*end main section eight*/
 /*start main section nine*/
+.main .nine{
+    background: linear-gradient(to bottom, #000000, #242424);
+}
 .main .nine .question {
     min-height: 1360px;
-    background: linear-gradient(to bottom, #000000, #242424);
     width: 100%;
 }
 
@@ -1032,10 +1071,12 @@ time, mark, audio, video {
 }
 /*end section nine*/
 /*start section ten*/
+.main .ten {
+    background: linear-gradient(to right, #E9EAE6, #FCFE92);
+}
 .ten .issue{
     min-height: 638px;
     height: auto;
-    background: linear-gradient(to right, #E9EAE6, #FCFE92);
 }
 .ten .issue h3{
     font-weight: 500;
