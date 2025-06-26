@@ -50,7 +50,7 @@ time, mark, audio, video {
 }
 
 .header .header_header .header_one {
-    border-bottom: 1px solid #A09E9E;
+    /*border-bottom: 1px solid #A09E9E;*/
     display: flex;
     align-items: center;
     justify-content: center;
@@ -117,28 +117,28 @@ time, mark, audio, video {
     font-family: Montserrat;
     text-decoration: none;
 }
+@media (max-width: 1120px) {
+    .header .header_header .header_info {
+        display: none;
+    }
 
-@media (max-width: 1024px) {
     .header .header_header .header_one {
         /*padding-inline: 100px;*/
         display: flex;
         flex-direction: column;
         row-gap: 15px;
-        align-items: flex-start;
+        align-items: center;
     }
+}
+@media (max-width: 1024px) {
 
-    .header .header_header .header_two {
-        display: none;
-    }
-
-    .header .header_header .header_info {
-        display: none;
-    }
 
 }
 
 @media (max-width: 768px) {
-
+    .header .header_header .header_two {
+        display: none;
+    }
 }
 
 /*end header*/
@@ -157,13 +157,13 @@ time, mark, audio, video {
     /*background-repeat: no-repeat;*/
     /*background-position: center;*/
     /*width: 100%;*/
-    padding: 100px 290px;
+    padding: 6.25rem 20%;
 }
 
 .main .one .main-logo h1 {
     text-align: center;
     font-weight: 600;
-    font-size: 42px;
+    font-size: clamp(1.7rem, 5vw, 2.6rem);
     color: #FFFFFF;
     font-family: Montserrat;
 }
@@ -182,7 +182,8 @@ time, mark, audio, video {
 }
 
 .main .one .main-logo button {
-    width: 359px;
+    max-width: 359px;
+    width: 100%;
     height: 80px;
     background-color: #FDFF8C;
     border-radius: 9px;
@@ -207,19 +208,19 @@ time, mark, audio, video {
 }
 
 @media (max-width: 1150px) {
-    .main .one .main-logo {
-        padding: 60px 100px;
-    }
+    /*.main .one .main-logo {*/
+    /*    padding: 60px 100px;*/
+    /*}*/
 }
 
 @media (max-width: 640px) {
-    .main .one .main-logo h1 {
-        font-size: 36px;
-    }
+    /*.main .one .main-logo h1 {*/
+    /*    font-size: 36px;*/
+    /*}*/
 
-    .main .one .main-logo {
-        padding: 40px 40px;
-    }
+    /*.main .one .main-logo {*/
+    /*    padding: 40px 40px;*/
+    /*}*/
 }
 
 /*main section one*/
@@ -230,14 +231,14 @@ time, mark, audio, video {
 
 .main .two .advantages {
     /*min-height: 908px;*/
-    padding: 100px 140px;
+    padding: 6.25rem 10%;
     /*background: linear-gradient(to right, #E9EAE6, #FCFE92);*/
 }
 
 .main .two .advantages h2 {
     padding-bottom: 41px;
     font-weight: 500;
-    font-size: 42px;
+    font-size: clamp(1.7rem, 5vw, 2.6rem);
     color: #000000;
     font-family: Montserrat;
     line-height: 100%;
@@ -267,7 +268,7 @@ time, mark, audio, video {
     padding-top: 35px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     .main .two .advantages .advantages-grid {
         grid-template-columns:repeat(2, 1fr);
     }
@@ -278,24 +279,20 @@ time, mark, audio, video {
         grid-template-columns: 1fr;
     }
 
-    .main .two .advantages h2 {
-        font-size: 32px;
-    }
 }
 
 /*end main section two*/
 /*star main section thee*/
 .main .three .our_services {
-    padding: 100px 140px;
+    padding: 6.25rem 10%;
 }
 
 .main .three .our_services h3 {
     font-weight: 500;
-    font-size: 42px;
+    font-size: clamp(1.7rem, 5vw, 2.6rem);
     color: #000000;
     font-family: Montserrat;
     text-align: center;
-    /*padding-top: 100px;*/
     padding-bottom: 60px;
 }
 
@@ -306,7 +303,7 @@ time, mark, audio, video {
     /*margin: 0 auto;*/
     /*max-width: 1160px;*/
     /*height: 100%;*/
-    width: 100%;
+    width: clamp(100%, 5vw, 50%);
     /*margin-bottom: 98px;*/
 }
 
@@ -321,13 +318,14 @@ time, mark, audio, video {
 
 .main .three .our_services .service-grid .service-text {
     background: linear-gradient(to right, #E9EAE6, #FCFE92);
-    height: 90px;
-    display: flex;
-    align-items: center;
+    /*height: 90px;*/
+    /*display: flex;*/
+    /*align-items: center;*/
 }
 
 .main .three .our_services .service-grid .service-text p {
-    padding: 28px;
+    padding-top: 28px;
+    padding-bottom: 20px;
     font-weight: 600;
     font-size: 14px;
     font-family: Montserrat;
@@ -335,8 +333,6 @@ time, mark, audio, video {
 
 .main .three .our_services .service-grid .service .service-text-one {
     padding-top: 29px;
-    padding-left: 20px;
-    padding-right: 20px;
     font-weight: 500;
     font-size: 14px;
     font-family: Montserrat;
@@ -375,10 +371,18 @@ time, mark, audio, video {
 }
 
 .main .three .our_services h3 {
-    font-size: 32px;
+    font-size: 2rem;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1240px) {
+    .main .three .our_services .service-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        /*max-width: 600px;*/
+    }
+}
+
+@media (max-width: 1024px) {
     .main .three .our_services .service-grid {
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
@@ -386,15 +390,7 @@ time, mark, audio, video {
     }
 }
 
-@media (max-width: 768px) {
-    .main .three .our_services .service-grid {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 20px;
-        /*max-width: 600px;*/
-    }
-}
-
-@media (max-width: 500px) {
+@media (max-width: 640px) {
     .main .three .our_services .service-grid {
         grid-template-columns: 1fr;
         /*max-width: 290px;*/
@@ -408,15 +404,14 @@ time, mark, audio, video {
 }
 
 .main .four .safeguards {
-
-    min-height: 940px;
+    padding: 6.25rem 17%;
+    /*min-height: 940px;*/
 }
 
 .main .four .safeguards h3 {
     font-weight: 500;
-    font-size: 32px;
+    font-size: 2rem;
     font-family: Montserrat;
-    padding-top: 100px;
     padding-bottom: 60px;
     text-align: center;
     color: #000000;
@@ -426,9 +421,9 @@ time, mark, audio, video {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 100px;
-    max-width: 958px;
-    width: 100%;
-    margin: 0 auto;
+    /*max-width: 958px;*/
+    width: clamp(100%, 5vw, 50%);
+    /*margin: 0 auto;*/
 }
 
 .main .safeguards .safeguards-grid .safeguards-law {
@@ -469,8 +464,8 @@ time, mark, audio, video {
 
 .main .safeguards .safeguards-grid .safeguards-law .radio-option span {
     font-weight: 400;
-    width: 100%;
-    font-size: 16px;
+    /*width: 100%;*/
+    font-size: 1rem;
     font-family: Montserrat;
 }
 
@@ -490,7 +485,8 @@ time, mark, audio, video {
 .main .four .safeguards .safeguards-grid .safeguards-amount .input-text input {
     margin-top: 10px;
     margin-bottom: 20px;
-    width: 400px;
+    max-width: 400px;
+    width: 100%;
     height: 40px;
     border: 1px solid #939393;
     border-radius: 5px;
@@ -501,7 +497,8 @@ time, mark, audio, video {
 }
 
 .main .four .safeguards .safeguards-grid .safeguards-amount button {
-    width: 400px;
+    max-width: 400px;
+    width: 100%;
     height: 60px;
     background-color: #000000;
     border-radius: 7px;
@@ -548,18 +545,29 @@ time, mark, audio, video {
     font-family: Montserrat;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1120px) {
     .main .four .safeguards .safeguards-grid {
         display: grid;
         grid-template-columns: 1fr;
         gap: 40px;
-        max-width: 400px;
     }
 
-    .main .four .safeguards .safeguards-grid .safeguards-amount .note {
-        margin-bottom: 50px;
+}
+@media(max-width: 640px){
+    .main .four .safeguards .safeguards-grid .safeguards-amount .policy{
+        margin-top: 20px;
+        column-gap: 10px;
+    }
+    .main .four .safeguards{
+        padding-top: 3.1rem;
+        padding-bottom: 3.1rem;
+    }
+    .main .safeguards .safeguards-grid .safeguards-law .input-radio-one{
+        flex-direction: column;
+        row-gap: 5px;
     }
 }
+
 
 /*end main section four*/
 /*start main section five*/
@@ -1224,7 +1232,7 @@ time, mark, audio, video {
 }
 
 .footer .footer_one .footer-plus {
-    border-bottom: 1px solid #4F4F4F;
+    /*border-bottom: 1px solid #4F4F4F;*/
     padding-top: 2.5rem;
     padding-bottom: 1.5rem;
     margin: 0 auto;
