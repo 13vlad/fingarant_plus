@@ -70,14 +70,14 @@ time, mark, audio, video {
     column-gap: 10px;
 }
 
-.header .header_header .header_info .information span {
+.header .header_header .header_info .information .info_span {
     font-weight: 400;
-    font-size: 0.8vw;
+    font-size: 14px;
     font-family: Montserrat;
     color: #000000;
 }
 
-.header .header_header .header_info .information span::first-line {
+.header .header_header .header_info .information .info_span::first-line {
     font-weight: bold;
 }
 
@@ -113,7 +113,7 @@ time, mark, audio, video {
 
 .header .header_header .header_two a {
     font-weight: 400;
-    font-size: 1.1vw;
+    font-size: 1rem;
     font-family: Montserrat;
     text-decoration: none;
 }
@@ -576,15 +576,13 @@ time, mark, audio, video {
 }
 
 .five .free {
-    min-height: 605px;
-    height: auto;
+    padding: 6.25rem 15%;
 }
 
 .five .free h3 {
     font-weight: 500;
-    font-size: 32px;
+    font-size: clamp(1.5rem, 5vw, 2rem);
     font-family: Montserrat;
-    padding-top: 100px;
     padding-bottom: 40px;
     color: #000000;
     text-align: center;
@@ -647,16 +645,14 @@ time, mark, audio, video {
         align-items: center;
         gap: 20px;
     }
-
-    .five .free h3 {
-        padding-top: 60px;
-    }
-
-    .five .free {
-        min-height: 700px;
-    }
 }
+@media (max-width: 640px) {
+    .five .free{
+        padding-top: 3.75rem;
+        padding-bottom: 3.75rem;
+    }
 
+}
 /*end main section five*/
 /*start section six*/
 .main .six {
@@ -664,18 +660,16 @@ time, mark, audio, video {
 }
 
 .main .six .design {
-    min-height: 764px;
-    height: auto;
-
+    /*min-height: 764px;*/
+   padding: 6.25rem 11%;
 }
 
 .main .six .design h3 {
     font-weight: 500;
-    font-size: 42px;
+    font-size: clamp(2rem, 5vw, 2.6rem);
     font-family: Montserrat;
     color: #FFFFFF;
     text-align: center;
-    padding-top: 100px;
     padding-bottom: 53px;
 }
 
@@ -684,8 +678,6 @@ time, mark, audio, video {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 39px 56px;
-    margin: 0 auto;
-    margin-bottom: 96px;
 }
 
 .main .six .design .design-grid .design-position {
@@ -693,8 +685,8 @@ time, mark, audio, video {
     flex-direction: row;
     gap: 18px;
     align-items: center;
+    justify-content: center;
     position: relative;
-    height: auto;
     min-height: 160px;
 }
 
@@ -718,15 +710,19 @@ time, mark, audio, video {
     position: absolute;
     z-index: 0;
     height: 160px;
-    left: 20%;
+    /*left: 20%;*/
 }
-
-@media (max-width: 800px) {
+@media (max-width: 1024px){
+    .main .six .design .design-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);}
+}
+@media (max-width: 768px) {
     .main .six .design .design-grid {
         display: grid;
         grid-template-columns: 1fr;
-        max-width: 400px;
-        min-height: 1609px;
+        /*max-width: 400px;*/
+        /*min-height: 1609px;*/
     }
 
     .main .six .design .design-grid .design-position {
@@ -736,25 +732,8 @@ time, mark, audio, video {
         gap: 40px;
     }
 
-    .main .six .design h3 {
-        padding-top: 60px;
-        font-size: 32px;
-    }
-
-    .main .six .design .design-grid .design-position .one {
-        left: 40%;
-    }
-
-    .main .six .design {
-        min-height: 1909px;
-    }
-
-    .main .six .design .design-grid .design-position p {
-        padding-top: 40px;
-    }
-
-    .main .six .design .design-grid .design-position .two {
-        display: block;
+    .main .six .design .design-grid .design-position .two_ {
+        /*display: block;*/
         transform: rotate(90deg);
     }
 }
@@ -762,15 +741,16 @@ time, mark, audio, video {
 /*end main section six*/
 /*start main section seven*/
 .main .seven .partners {
-    margin: 100px auto;
-    min-height: 913px;
-    max-width: 1160px;
+    /*margin: 100px auto;*/
+    /*min-height: 913px;*/
+    /*max-width: 1160px;*/
+    padding: 6.25rem 10%;
 }
 
 .main .seven .partners h3 {
     text-align: center;
     font-weight: 500;
-    font-size: 42px;
+    font-size: clamp(2rem, 5vw, 2.6rem);
     font-family: Montserrat;
     padding-bottom: 60px;
 }
@@ -779,7 +759,7 @@ time, mark, audio, video {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px 40px;
-    max-width: 1160px;
+    /*max-width: 1160px;*/
 }
 
 .main .seven .partners .partners-grid .partner {
@@ -843,33 +823,33 @@ time, mark, audio, video {
     display: block;
     margin: 0 auto;
 }
-
-@media (max-width: 1120px) {
+@media (max-width: 1260px) {
+    .main .seven .partners .partners-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media (max-width: 1024px) {
     .main .seven .partners .partners-grid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
-@media (max-width: 800px) {
-    .main .seven .partners {
-        margin: 60px auto;
-    }
-
-    .main .seven .partners h3 {
-        font-size: 32px;
-        padding-bottom: 35px;
-    }
-
+@media (max-width: 768px) {
     .main .seven .partners .partners-grid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        max-width: 601px;
-        margin: 0 auto;
     }
 
     .main .seven .partners .partners-grid .partner:nth-child(n+5) {
         display: none;
+    }
+}
+@media (max-width: 640px){
+    .main .seven .partners .partners-grid {
+        display: grid;
+        grid-template-columns:  1fr;
     }
 }
 
