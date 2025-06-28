@@ -1003,8 +1003,8 @@ time, mark, audio, video {
     display: inline-flex;
     gap: 20px;
     padding-left: 20px;
-    float: right;
-    margin-left: 715px;
+    /*float: right;*/
+    margin-left: 70%;
 }
 
 .main .eight .online .online_step .online-contract .online-input button:hover {
@@ -1252,7 +1252,7 @@ time, mark, audio, video {
 /*end section ten*/
 /*start footer*/
 .footer .footer_one {
-    min-height: 575px;
+    /*min-height: 575px;*/
     background: linear-gradient(to bottom, #242424, #000000);
 }
 
@@ -1260,7 +1260,8 @@ time, mark, audio, video {
     /*border-bottom: 1px solid #4F4F4F;*/
     padding-top: 2.5rem;
     padding-bottom: 1.5rem;
-    margin: 0 auto;
+    padding-inline: 10%;
+    /*margin: 0 auto;*/
     display: flex;
     flex-direction: row;
     column-gap: 7.8rem;
@@ -1280,7 +1281,7 @@ time, mark, audio, video {
 
 .footer .footer_one .footer-plus .footer_info p {
     font-weight: 500;
-    font-size: 0.8vw;
+    font-size: 0.8rem;
     font-family: Montserrat;
     color: #FFFFFF;
 }
@@ -1311,7 +1312,7 @@ time, mark, audio, video {
 
 .footer .footer_one .footer-plus .footer_info .mail span::first-line {
     font-weight: 600;
-    font-size: 20px;
+    font-size: 0.9rem;
 }
 
 .footer .footer_one .footer-plus .footer_info a {
@@ -1357,9 +1358,9 @@ time, mark, audio, video {
 }
 
 .footer .footer_one .footer-plus-two {
-    width: 100%;
-    max-width: 1160px;
-    margin: 0 auto;
+    /*width: 100%;*/
+    /*max-width: 1160px;*/
+    /*margin: 0 auto;*/
     font-weight: 400;
     font-size: 0.75rem;
     font-family: Montserrat;
@@ -1367,4 +1368,14 @@ time, mark, audio, video {
     color: #FFFFFF;
     padding-top: 2.5rem;
     padding-bottom: 1.6rem;
+    padding-inline: 10%;
+}
+@media (max-width: 768px) {
+    .footer .footer_one .footer-plus .footer_info_two{
+        display: none;
+    }
+    .footer .footer_one .footer-plus {
+        justify-content: flex-start;
+    }
+
 }
